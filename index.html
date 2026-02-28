@@ -594,6 +594,219 @@
             </div>
         </div>
 
+        <!-- CYBER KILL CHAIN -->
+        <h2 id="killchain">Lockheed Martin Cyber Kill Chain</h2>
+        
+        <div class="card">
+            <div class="card-title">7 Stages</div>
+            <ul class="steps">
+                <li>Reconnaissance</li>
+                <li>Weaponization</li>
+                <li>Delivery</li>
+                <li>Exploitation</li>
+                <li>Installation</li>
+                <li>Command & Control</li>
+                <li>Actions on the Objective</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Recon Techniques</div>
+            <div class="term">
+                <span class="term-name">Footprinting</span>
+                <span class="term-def">Identifying the range of IP addresses used by the organization, employees, and potential for exploitation</span>
+            </div>
+            <div class="term">
+                <span class="term-name">Fingerprinting</span>
+                <span class="term-def">Identifying and gathering information on network assets</span>
+            </div>
+            <div class="term">
+                <span class="term-name">OSINT</span>
+                <span class="term-def">Collected publicly available information</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Commonly Used Tools</div>
+            <ul>
+                <li><strong>Nmap</strong> — Widely used port scanner</li>
+                <li><strong>Zenmap</strong> — GUI front end for Nmap</li>
+                <li><strong>OpenVAS</strong> — A vulnerability scanner</li>
+                <li><strong>LanGuard</strong> — Client-based vulnerability scanner</li>
+                <li><strong>Ping</strong> — Command included in TCP/IP stack of most OS</li>
+                <li><strong>Wireshark</strong> — Network traffic scanner</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Detecting Incidents</div>
+            
+            <h3>Possible Indicators</h3>
+            <ul>
+                <li>Unfamiliar files</li>
+                <li>Unknown programs</li>
+                <li>Unknown processes</li>
+                <li>Unusual resource use</li>
+                <li>Unusual system crashes</li>
+            </ul>
+            
+            <h3>Probable Indicators</h3>
+            <ul>
+                <li>Unexpected activity</li>
+                <li>Unexpected account</li>
+                <li>Reported attack</li>
+                <li>Notification from IDPS</li>
+            </ul>
+            
+            <h3>Definite Indicators</h3>
+            <ul>
+                <li>Dormant accounts</li>
+                <li>Log changes</li>
+                <li>Notification from tracker</li>
+                <li>Notification from peer (attack from your system)</li>
+                <li>Hacker tools</li>
+            </ul>
+        </div>
+
+        <!-- ACI SECURITY -->
+        <div class="card">
+            <div class="card-title">ACI's Security Ecosystem</div>
+            <ul>
+                <li>Mobile</li>
+                <li>End Point</li>
+                <li>Data</li>
+                <li>Threat Intelligence</li>
+                <li>Network</li>
+                <li>Apps</li>
+                <li>Advanced Fraud</li>
+                <li>Identity Access</li>
+            </ul>
+        </div>
+
+        <!-- STEPS 5-8 -->
+        <div class="card">
+            <div class="card-title">Step 5: Communicating CSIRT's Vision & Operational Plan</div>
+            <ul>
+                <li>Feedback and Input</li>
+                <li>Success Stories</li>
+                <li>Notice of Incidents</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Step 6: Beginning CSIRT Implementation</div>
+            <ul>
+                <li>Recruit & train CSIRT Staff</li>
+                <li>Purchase equipment and prepare infrastructure</li>
+                <li>Define and prepare policies & procedures</li>
+                <li>Define and acquire incident-tracking system</li>
+                <li>Prepare incident-reporting forms</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Step 7: Announce the Operational CSIRT</div>
+            <ul>
+                <li>Staff members & leadership</li>
+                <li>Mission and goals</li>
+                <li>Services and functions</li>
+                <li>Operating hours</li>
+                <li>Contact methods and numbers</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Step 8: Evaluating CSIRT's Effectiveness</div>
+            <h3>Closing the Loop</h3>
+            <ul>
+                <li>Post-incident Analysis → Incident Review</li>
+                <li>Post-incident Review → Major Incident Review</li>
+                <li>Root Cause Analysis</li>
+            </ul>
+            <h3>Establish Timeline</h3>
+            <ul>
+                <li>When did the incident occur?</li>
+                <li>Why did incident occur?</li>
+                <li>What can we do to prevent incident from occurring again?</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">CSIRT Performance Measures</div>
+            <ul>
+                <li>Comparison to other CSIRTs</li>
+                <li>Feedback from customers</li>
+                <li>Surveys</li>
+                <li>Defined set of measures that can be collected, reported, and analyzed</li>
+                <li>Historical measurements:
+                    <ul>
+                        <li># of incidents</li>
+                        <li>Response times</li>
+                        <li>Resolution rates</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- CHAPTER 6 -->
+        <h2 id="ch6">Chapter 6: Incident Detection Strategies</h2>
+
+        <div class="card">
+            <div class="card-title">Incident Definition</div>
+            <p><span class="highlight">Incident</span> = When an adverse event becomes a genuine threat to the ongoing operations of an organization.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Incident Classification</div>
+            <ul>
+                <li>The process of evaluating circumstances around organizational events</li>
+                <li>Determining which adverse events are possible incident candidates</li>
+                <li>Identifying which candidates are actual incidents</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">NIST Six-Category Incident Classification (Network-Based)</div>
+            <ul class="steps">
+                <li><strong>Denial of Service</strong> — Attacker uses network of hijacked computers to flood target with phony requests, leaving no bandwidth for legitimate traffic</li>
+                <li><strong>Malicious Code</strong> — Virus, Worms, Rootkits, Spyware, Ransomware, Remote Access, Keylogger</li>
+                <li><strong>Unauthorized Access</strong></li>
+                <li><strong>Inappropriate Usage</strong></li>
+                <li><strong>Multiple Component</strong> — Workstation compromised by malicious code, used to attack & compromise more workstations, then perform DDoS against another host</li>
+            </ul>
+        </div>
+
+        <!-- HACKER TYPES -->
+        <h2 id="hackers">Hacker Types</h2>
+
+        <div class="card">
+            <div class="card-title">White Hat</div>
+            <ul>
+                <li>Paid Employee or Contractor</li>
+                <li>Penetration Tester</li>
+                <li>Security Specialist</li>
+                <li>Certified Ethical Hacker</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Black Hat</div>
+            <ul>
+                <li>Criminal</li>
+                <li>Malicious Intent</li>
+                <li>Personal Gain</li>
+                <li>Cyber Espionage</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Gray Hat</div>
+            <ul>
+                <li>"Hacktivist"</li>
+                <li>Has a cause</li>
+            </ul>
+        </div>
+
         <!-- CSIRT SERVICES -->
         <h2 id="services">Other CSIRT Services</h2>
         
@@ -652,13 +865,15 @@
     </div>
 
     <nav class="nav">
-        <a href="#mod2">Module 2</a>
+        <a href="#mod2">Mod 2</a>
         <a href="#terms">Terms</a>
         <a href="#threats">Threats</a>
         <a href="#ch3">Ch 3</a>
         <a href="#ch4">Ch 4</a>
         <a href="#ch5">Ch 5</a>
-        <a href="#services">Services</a>
+        <a href="#killchain">Kill Chain</a>
+        <a href="#ch6">Ch 6</a>
+        <a href="#hackers">Hackers</a>
         <a href="#compare">Compare</a>
     </nav>
 </body>
